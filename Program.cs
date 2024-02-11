@@ -37,7 +37,7 @@
             GoKart goKartToad = new GoKart(toad);
             Console.WriteLine(goKartToad);
 
-            goKartToad.TweakEngine(-50);
+            //goKartToad.TweakEngine(-50);
 
             //Response to exceptions in the Engine class set properties
             try
@@ -50,6 +50,8 @@
                 Console.WriteLine(ex.Message);
             }
             Console.WriteLine("This after our try catch");
+
+            Console.ReadLine();
 
              
         }
